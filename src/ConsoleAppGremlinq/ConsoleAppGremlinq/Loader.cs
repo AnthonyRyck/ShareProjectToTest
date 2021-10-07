@@ -141,6 +141,7 @@ namespace ConsoleAppGremlinq
 												until => until.Where(x => x.SolarSystemName == arriveSystem))
 									.Path().Limit(1);
 
+
 				foreach (var item in paths)
 				{
 					//item.Objects

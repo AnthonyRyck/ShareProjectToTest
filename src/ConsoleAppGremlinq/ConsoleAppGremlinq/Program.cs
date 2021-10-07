@@ -58,10 +58,10 @@ namespace ConsoleAppGremlinq
 				loadData.GetRegion("The Forge").Wait();
 				loadData.GetRegion("The Forge", 0.5).Wait();
 				loadData.GetSystemVoisin("Jita").Wait();
-				loadData.GetSystemVoisin("Itamo").Wait();
+				loadData.GetSystemVoisin("Mitsolen").Wait();
 
 				// Error HERE !
-				loadData.GetItineraire("Jita", "Itamo").Wait();
+				loadData.GetItineraire("Jita", "Mitsolen").Wait();
 			}
 			catch (Exception ex)
 			{
