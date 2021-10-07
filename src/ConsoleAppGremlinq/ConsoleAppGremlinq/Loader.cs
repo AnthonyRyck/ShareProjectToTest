@@ -130,7 +130,7 @@ namespace ConsoleAppGremlinq
 				//.path().limit(1)
 
 				// View the request Gremlin
-				//var requete = _g.V<SystemSolar>(depart.Id)
+				//var requete = _g.V<SystemSolar>().Where(x => x.SolarSystemName == startSystm)
 				//					.RepeatUntil(rep => rep.Out().SimplePath().Cast<SystemSolar>(),
 				//								until => until.Where(x => x.SolarSystemName == arriveSystem))
 				//					.Path().Limit(1)//;
