@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppGremlinq", "ConsoleAppGremlinq\ConsoleAppGremlinq.csproj", "{056A94DA-1199-4B38-96CD-4CFDF822F61F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{056A94DA-1199-4B38-96CD-4CFDF822F61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056A94DA-1199-4B38-96CD-4CFDF822F61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056A94DA-1199-4B38-96CD-4CFDF822F61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056A94DA-1199-4B38-96CD-4CFDF822F61F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C091C353-5248-4376-8BD7-C471331413FE}
+	EndGlobalSection
+EndGlobal
