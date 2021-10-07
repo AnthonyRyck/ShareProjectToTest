@@ -136,12 +136,12 @@ namespace ConsoleAppGremlinq
 				//					.Path().Limit(1)//;
 				//.Debug();
 
-				var temtt = await _g.V<SystemSolar>().Where(x => x.SolarSystemName == startSystm)
+				var paths = await _g.V<SystemSolar>().Where(x => x.SolarSystemName == startSystm)
 									.RepeatUntil(repeat => repeat.Out().SimplePath().Cast<SystemSolar>(),
 												until => until.Where(x => x.SolarSystemName == arriveSystem))
 									.Path().Limit(1);
 
-				foreach (var item in temtt)
+				foreach (var item in paths)
 				{
 					//item.Objects
 					//foreach (var pp in item.Objects)
