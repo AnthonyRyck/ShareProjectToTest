@@ -17,9 +17,6 @@ namespace TestGremlinNet
 
 			string pathBase = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Files");
 
-			string pathSolarSystem = Path.Combine(pathBase, "systemSolar.json");
-			string pathJumps = Path.Combine(pathBase, "Jumps.json");
-
 			string pathSystemTheForge = Path.Combine(pathBase, "AllSystemsTheForge.json");
 			string pathJumpsTheForge = Path.Combine(pathBase, "AllJumpsTheForge.json");
 
@@ -30,7 +27,6 @@ namespace TestGremlinNet
 			Console.WriteLine($"# Il y a {allSolarSystems.Count} systèmes solaires.");
 
 			Console.WriteLine("Chargement du fichier des jumps...");
-			//string jsonContentJumps = File.ReadAllText(pathJumps);
 			string jsonContentJumps = File.ReadAllText(pathJumpsTheForge);
 
 			List<Jumps> allJumps = JsonSerializer.Deserialize<List<Jumps>>(jsonContentJumps);

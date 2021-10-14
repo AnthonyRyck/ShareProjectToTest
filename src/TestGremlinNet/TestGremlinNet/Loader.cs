@@ -24,7 +24,7 @@ namespace TestGremlinNet
 
 		public Loader()
 		{
-			ClientGremlin = new GremlinClient(new GremlinServer("localhost", 8182));
+			ClientGremlin = new GremlinClient(new GremlinServer("localhost", 8180));
 			GremlinRequest = AnonymousTraversalSource.Traversal().WithRemote(new DriverRemoteConnection(ClientGremlin));
 		}
 
