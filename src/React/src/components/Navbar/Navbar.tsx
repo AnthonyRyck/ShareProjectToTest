@@ -6,7 +6,7 @@ export default class Navbar extends React.Component {
     {
         return(            
             <nav>
-                <h1>Fan App</h1>
+                <h1 className="nav-title">Fan App</h1>
 
                 <ul className="nav flex-column">
                     <li className="nav-item px-3">
